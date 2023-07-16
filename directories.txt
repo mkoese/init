@@ -1,0 +1,4 @@
+~/bin
+~/Repos/github.com
+~/Repos/gitlab.com
+~/Secrets
