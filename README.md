@@ -6,10 +6,16 @@
 while IFS= read -r directory; do mkdir -vp "$(eval echo $directory)"; done < .homecreate
 ```
 
+## Clone Git Repo
+
+```shell
+git clone git@github.com:mkoese/init.git ~/Repos/github.com/mkoese
+```
+
 ## Create links to initial scripts
 
 ```shell
-mkdir -vp ~/bin && ln -vs ~/Repos/github.com/mkoese/bin/* ~/bin
+mkdir -vp ~/bin && ln -vs ~/Repos/github.com/mkoese/init/* ~/bin
 ```
 
 ## Create backups or restore backups
