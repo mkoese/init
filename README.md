@@ -1,16 +1,27 @@
 # Home `bin` folder
 
+## Create and clone inital Repository
+
+
+```shell
+mkdir -p ~/Repos/github.com/mkoese/init
+```
+
+```shell
+git clone git@github.com:mkoese/init.git ~/Repos/github.com/mkoese/init
+```
+
+```shell
+cd ~/Repos/github.com/mkoese/init
+```
+
+
 ## Create directories in `~`
 
 ```shell
 while IFS= read -r directory; do mkdir -vp "$(eval echo $directory)"; done < .homecreate
 ```
 
-## Clone Git Repo
-
-```shell
-git clone git@github.com:mkoese/init.git ~/Repos/github.com/mkoese
-```
 
 ## Create links to initial scripts
 
